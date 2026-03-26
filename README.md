@@ -1,10 +1,10 @@
-# 📝 Text Sentiment & Category Labeling Dataset
+#  Text Sentiment & Category Labeling Dataset
 
 A structured data labeling project focused on classifying user-generated text by **sentiment** and **topic category** — simulating real-world annotation tasks found on platforms like **Remotasks** and **Appen**.
 
 ---
 
-## 📌 Project Overview
+##  Project Overview
 
 | Property | Details |
 |---|---|
@@ -17,7 +17,7 @@ A structured data labeling project focused on classifying user-generated text by
 
 ---
 
-## 🏷️ Label Schema
+##  Label Schema
 
 ### Sentiment Labels
 | Label | Description |
@@ -40,7 +40,7 @@ A structured data labeling project focused on classifying user-generated text by
 
 ---
 
-## 📁 Project Structure
+##  Project Structure
 
 ```
 text-labeling-sentiment-dataset/
@@ -58,7 +58,7 @@ text-labeling-sentiment-dataset/
 
 ---
 
-## 📋 Labeling Guidelines Summary
+##  Labeling Guidelines Summary
 
 To ensure **consistency and quality**, the following rules were applied during annotation:
 
@@ -70,7 +70,7 @@ To ensure **consistency and quality**, the following rules were applied during a
 
 ---
 
-## 📊 Dataset Sample
+##  Dataset Sample
 
 | review_id | text | sentiment | category | confidence | needs_review |
 |---|---|---|---|---|---|
@@ -81,7 +81,7 @@ To ensure **consistency and quality**, the following rules were applied during a
 
 ---
 
-## 🔍 Quality Assurance
+##  Quality Assurance
 
 - **Inter-annotator agreement** was simulated using a 10% re-labeling pass on random samples
 - Entries with `confidence: low` were double-checked against the labeling guidelines
@@ -89,7 +89,7 @@ To ensure **consistency and quality**, the following rules were applied during a
 
 ---
 
-## 🛠️ How to Use
+##  How to Use
 
 ```python
 import pandas as pd
